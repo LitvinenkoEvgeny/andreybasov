@@ -1998,8 +1998,12 @@ section.reviews {
   section.reviews .about {
     position: absolute;
     height: 53.3%;
-    background: url(https://pp.vk.me/c637927/v637927083/12bd3/0wgdhZ1pSSc.jpg) no-repeat top right;
     background-size: cover;
+    background-color: grey;
+    background-blend-mode: multiply;
+    background-image: url(https://pp.vk.me/c637927/v637927083/12bd3/0wgdhZ1pSSc.jpg);
+    background-repeat: no-repeat;
+    background-position: top right;
     right: 18vw;
     bottom: 0;
     width: 36vw;
@@ -2024,6 +2028,7 @@ section.reviews {
       opacity: 0.7; }
     /* line 1762, pages.scss */
     section.reviews .about p.text {
+      opacity: 0;
       color: #feffe2;
       font-size: 16px;
       line-height: 1.4; }
